@@ -1,0 +1,240 @@
+{
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09AKhCRwiilW9JR9Jg6U3bAOhh0mE7mlMmwz-VdJRtZqiYbB4XvEfdgapVLN3ipyN329VRm4VppJXcqQSD77O_Q9s",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1799392474.871821,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.426126015.1783840433",
+      "domain": ".rapido.bike",
+      "path": "/",
+      "expires": 1791616433,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "li_sugr",
+      "value": "beba4e73-b0b7-40ad-9774-e18ae2dad078",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1791616564.38453,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&49ee2d32-b20a-40f8-8ef3-b6d42c023367\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1815376564.384619,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=OGST08:s=O:r=O:a=O:p=O:g=3456:u=1:x=1:i=1783840433:t=1783926833:v=2:sig=AQFZ840lO0UIwBdPDQRrNCNBXz5TSslV\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1783926833.359766,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "USfLOW7ExjdCCEJYyaEBsBnInZSOsJLV_ejkXA32_1c-1783840433.0663154-1.0.1.1-sj7wP5e5F4Ju7UTwssTUODexevAb3CmQ157Arm5XWQhIhDjtbiLHABHDmjXUzsOLobNH3F31GL9tg7i12xtDOKoptc8X1yQe9E9im6.j1vnX1r41OAQya55PRb3zsw9x",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1783842233.359787,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1145947555.1783840433",
+      "domain": ".rapido.bike",
+      "path": "/",
+      "expires": 1818400563.888874,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1783840433564.668354873403093251",
+      "domain": ".rapido.bike",
+      "path": "/",
+      "expires": 1791616564,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "UserMatchHistory",
+      "value": "AQKbBs-KOTVh4AAAAZ9VLOXBlkCNtcyCdYaVumuIt9gwBBJW1NUdLIw8DRtDrLQS4yXG5gmbxOgihA",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1786432433.735241,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AnalyticsSyncHistory",
+      "value": "AQKkr-peDkV0kAAAAZ9VLOXCs1znw-6RiQ2xPPpt2qlBT_nBQPhdvCp1XsX-B75GS4Gc3Fw4Q7ymyZ4D5qQmdg",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1786432433.735271,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bscookie",
+      "value": "\"v=1&20260712071353fc40c713-6d67-4507-8fdb-c905fa209278AQHokLM-4TDJav8TTevJJS8CS16YgY22\"",
+      "domain": ".www.linkedin.com",
+      "path": "/",
+      "expires": 1815376433.062159,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUm0vAulFikvKMp8ihILNQ5ZolE6KHt3ntNZzrt1_1uigG6__oaRugB9ie-e",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1818400436.30128,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "token",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWFlMDBmNTJmYTJjN2NmY2RlZDEyNDUiLCJmaXJzdE5hbWUiOiJTYWNoaW4gU2luZ2giLCJsYXN0TmFtZSI6IiIsIm1vYmlsZSI6IjkzMDQ0MDc0NDYiLCJlbWFpbCI6InNhY2hpbmVkdWNhdGlvbmFsNTU1QGdtYWlsLmNvbSIsInJvbGVzIjpbImN1c3RvbWVyIl0sImRldmljZUlkIjoiIiwidXNlcklkIjoiNjFhZTAwZjUyZmEyYzdjZmNkZWQxMjQ1Iiwic291cmNlIjoicHdhIiwiaWF0IjoxNzgzODQwNTI1LCJpc3MiOiJFZkw1NW80czQwdWtESkRUd0t5R3VYUE5ib09oMWNnbiJ9.mGEnWsUjJydzTQmOc2ee5-PN3g6rFb79M86C2rHnXGE",
+      "domain": "m.rapido.bike",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "532=JT6oBT3lBGVeoGD89QCHHzhyuL00I-XbtU1whAE12j9_bJZCQMXYNxWZ2WxZ4S9sNxXh633y9n3LsKUOPs2yRrVKz2sjOwaPo7ViXcPlFP6CThEagp28AB6l2mPh4obfJXxt3AvARJX9j0pjkX6tJaRr_0sckQBEJdMKP-WYsITy-vHz7VAC-FjHeIiZB4CKrA4gkw",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1799651648.18378,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_K6N92JJQ02",
+      "value": "GS2.1.s1783840433$o1$g1$t1783840570$j53$l0$h0",
+      "domain": ".rapido.bike",
+      "path": "/",
+      "expires": 1818400570.564145,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://m.rapido.bike",
+      "localStorage": [
+        {
+          "name": "token",
+          "value": "{\"data\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWFlMDBmNTJmYTJjN2NmY2RlZDEyNDUiLCJmaXJzdE5hbWUiOiJTYWNoaW4gU2luZ2giLCJsYXN0TmFtZSI6IiIsIm1vYmlsZSI6IjkzMDQ0MDc0NDYiLCJlbWFpbCI6InNhY2hpbmVkdWNhdGlvbmFsNTU1QGdtYWlsLmNvbSIsInJvbGVzIjpbImN1c3RvbWVyIl0sImRldmljZUlkIjoiIiwidXNlcklkIjoiNjFhZTAwZjUyZmEyYzdjZmNkZWQxMjQ1Iiwic291cmNlIjoicHdhIiwiaWF0IjoxNzgzODQwNTI1LCJpc3MiOiJFZkw1NW80czQwdWtESkRUd0t5R3VYUE5ib09oMWNnbiJ9.mGEnWsUjJydzTQmOc2ee5-PN3g6rFb79M86C2rHnXGE\",\"exp\":1784013325103}"
+        },
+        {
+          "name": "uniqueId",
+          "value": "9dde1aae-2143-42bd-b3c1-47d4971d1fe7"
+        },
+        {
+          "name": "_grecaptcha",
+          "value": "09AKhCRwiLZjS-s3Eifbs-yzoKbywuVlmq5MnZLKTIWhrOvYUR0ALDd_CItKB_w4K7e0EbmK7JVWyna_KwGwzQJ2cNqxTxtp_BC3dc0LeuwdW_zSET7b-xWkvzBPn2DgfT"
+        },
+        {
+          "name": "traceId",
+          "value": "288824f9-b2f1-449e-92b8-26f28a5351eb"
+        },
+        {
+          "name": "profile",
+          "value": "{\"location\":{\"lat\":28.498404,\"lng\":77.23812},\"trackingData\":{\"adId\":\"acdcbb41-e5e1-4495-8cd1-6a5edcec9afd\",\"idfv\":null,\"modifiedOn\":\"1777435385318\"},\"roles\":[\"customer\"],\"active\":true,\"status\":2,\"createdOn\":1638793461741,\"mobileVerified\":true,\"emailVerified\":false,\"detailsUpdated\":true,\"passwordReset\":false,\"hailingUser\":false,\"whatsapp\":false,\"city\":\"Delhi\",\"cluster\":\"Sangam Vihar_Del\",\"appVersion\":\"214\",\"promotionConsent\":false,\"_id\":\"61ae00f52fa2c7cfcded1245\",\"firstName\":\"Sachin Singh\",\"lastName\":\"\",\"email\":\"sachineducational555@gmail.com\",\"provider\":\"local\",\"mobile\":\"9304407446\",\"firebaseToken\":\"b877863025f:APA91b9b4ceefe2cb7bd7aa59c7a0bc9cf99eb94d83c7e\",\"date\":\"2021-12-06\",\"timeBucket\":\"17:59\",\"device\":{\"carrier\":\"\",\"deviceId\":\"\",\"internet\":\"13\",\"manufacturer\":\"Xiaomi\",\"model\":\"22071212AG\",\"firebaseAppInstanceId\":\"b2ff905dc5d23452cc15a21ae0eb90e1\",\"integrityId\":\"mIv9n51tgud-SxGJ7bVNg2p3ciNembMNDhl8-WnZyx4\",\"trustLevel\":\"BASIC\"},\"createdAt\":\"2021-12-06T12:24:21.818Z\",\"updatedAt\":\"2021-12-06T12:24:21.818Z\",\"__v\":0,\"whatsappConsent\":{\"consent\":false,\"timestamp\":null},\"tokenDate\":\"2026-07-12\",\"termsOfServiceConsent\":{\"accepted\":true,\"acceptedOn\":1638793531974},\"dateOfBirth\":\"\",\"gender\":0,\"referralCode\":\"\",\"lastModifiedOn\":1783840507160,\"retargetingChannel\":\"restricted\",\"wallets\":[\"rapido\"]}"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.rapido.bike",
+      "localStorage": [
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gsid_dc\":{\"value\":{\"joinId\":\"DKxe0j0s5I0oBT-CHvmN6R1nsCUfN2IWHg\",\"lastJoinedTimeMs\":1783840433108},\"expires\":1783840733108},\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1783840433112},\"expires\":1791616433112}}"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1783840433547"
+        },
+        {
+          "name": "li_adsId",
+          "value": "8c26b0e1-5942-4863-9653-bfe02e816245"
+        },
+        {
+          "name": "traceId",
+          "value": "13982365-cc44-40f1-a45f-0d270112f91b"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MnViOXp4MWdxMmFjOQ=="
+        },
+        {
+          "name": "rc::f",
+          "value": "0aAFN7mMsu1mIFNc5i4dSAHZaBsaQu5e3tiqoXhc9hBbI6Pu_zS3ey9oFkIh5VPmpqRpn74P4"
+        }
+      ]
+    },
+    {
+      "origin": "https://rapido.bike",
+      "localStorage": [
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gsid_dc\":{\"value\":{\"joinId\":\"cNnZnnF9vpxQK3YAhxD5J0QRJvsrlxlWFA\",\"lastJoinedTimeMs\":1783840563602},\"expires\":1783840863602},\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1783840563606},\"expires\":1791616563606}}"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1783840564160"
+        },
+        {
+          "name": "li_adsId",
+          "value": "7e492b69-de98-47b5-a361-aa32cd1b5959"
+        }
+      ]
+    }
+  ]
+}

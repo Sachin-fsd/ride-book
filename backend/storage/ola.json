@@ -1,0 +1,209 @@
+{
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09AKhCRwgyiuVV_2A8HMLxo4PW-uD1mNxPFOTwMX29bOWNWEcI-gkBQ1OEvw4qOwKpLxy5-HD8UkQ_35vl3b-pWTg",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expires": 1799313672.640463,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_csrf",
+      "value": "_eDI7Rx7fc_T36iS2uy7TJQy",
+      "domain": "book.olacabs.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "0LXXPDL2-4-awTVrokWs7BHHcyGTf1FyIW8k",
+      "domain": "book.olacabs.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OSRN_v1",
+      "value": "wKGt3TdaMVir69DY1vJh_eOZ",
+      "domain": ".olacabs.com",
+      "path": "/",
+      "expires": 1818321567.558704,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AKA_A2",
+      "value": "A",
+      "domain": ".olacabs.com",
+      "path": "/",
+      "expires": 1783765167.558764,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.717899240.1783761569",
+      "domain": ".olacabs.com",
+      "path": "/",
+      "expires": 1791537569,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_s",
+      "value": "h4MrKqu3WaxCJUZBBwLVINKmYidV%2BqHfmpvLFnNhjK%2Bf3c3b9SCV5VR2rlbcVYCy",
+      "domain": ".app.link",
+      "path": "/",
+      "expires": 1815297569.762594,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.864750906.1783761571",
+      "domain": ".olacabs.com",
+      "path": "/",
+      "expires": 1783848027,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_FR59878HTR",
+      "value": "GS2.2.s1783761571$o1$g0$t1783761571$j60$l0$h0",
+      "domain": ".olacabs.com",
+      "path": "/",
+      "expires": 1818321571.916129,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUlpjDLY6ALgT-v_I_CmZ5l4W8yO95kNhm2oCoaSqVS3MyUbpLbqm9XBBl6b",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1818321572.343551,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_csrf",
+      "value": "by5I0CQJHGgXim1OyhA17jyp",
+      "domain": "accounts.olacabs.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "zxbSWAwQ-mSHjCNbR6YhFskC__QjqaMfih4Y",
+      "domain": "accounts.olacabs.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.624531691.1783761571",
+      "domain": ".olacabs.com",
+      "path": "/",
+      "expires": 1818321627.918435,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_EKVXJMSBW2",
+      "value": "GS2.2.s1783761628$o1$g0$t1783761628$j60$l0$h0",
+      "domain": ".olacabs.com",
+      "path": "/",
+      "expires": 1818321628.903796,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wasc",
+      "value": "web-4c8fd95d-6b45-4c9c-a084-f44b453daf23__BZbLuw0GKcjPvcH0VLuDfBihG4fAoAacq2mnpgUYh4nK7ps5t5jzPY1AimheRnnyaGbHytaBz2AU2UXKMz48MFsBXZ4rWuZMROAVFByMFNT3ZuR7EvNGNfv0FqUkaLE/KAuKlgnyGTAVMsatffXBhIm24rJbcVgb1t/6wb0yzMg=",
+      "domain": ".olacabs.com",
+      "path": "/",
+      "expires": 1791537672.949053,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_2TR8WHTK1X",
+      "value": "GS2.1.s1783761572$o1$g1$t1783761700$j34$l0$h0",
+      "domain": ".olacabs.com",
+      "path": "/",
+      "expires": 1818321700.849876,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://book.olacabs.com",
+      "localStorage": [
+        {
+          "name": "NRBA_SESSION",
+          "value": "{\"value\":\"14ab8d8f8ab27bec\",\"inactiveAt\":1783763500527,\"expiresAt\":1783775970623,\"updatedAt\":1783761700527,\"sessionReplayMode\":0,\"sessionReplaySentFirstChunk\":false,\"sessionTraceMode\":0,\"traceHarvestStarted\":false,\"serverTimeDiff\":-54,\"custom\":{}}"
+        },
+        {
+          "name": "denial",
+          "value": "-1"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gsid_dc\":{\"value\":{\"joinId\":\"3euVPKpf2JejJCfcbdz_pIwyMxMJiD8f2g\",\"lastJoinedTimeMs\":1783761568610},\"expires\":1783761868610},\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1783761568616},\"expires\":1791537568616}}"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MTN3YmRwdTFpdTB6OXM="
+        },
+        {
+          "name": "rc::f",
+          "value": "0aAFN7mMvEM8YmxPoyFp5QGQVyHGtkBJfaQ6Hfw2niWUmeGhcG_rF6geh0mleazzyRvlT1_SE"
+        }
+      ]
+    },
+    {
+      "origin": "https://accounts.olacabs.com",
+      "localStorage": [
+        {
+          "name": "_grecaptcha",
+          "value": "09AKhCRwjKYfwKcZlCn1hYwEWmWjGrB7HTJs6vtTysWIBvVqtIFhp4B5_vH_JO_RnN8lLACn2Y4dbGO-qfpUM12nAPmOMgEUBcLFITiq00uKlWYRaX0LZH-SxR690a-mAA"
+        },
+        {
+          "name": "storageId",
+          "value": "1783761627515lovzmooC9jYZmmBRgHknrrf18Vk"
+        }
+      ]
+    }
+  ]
+}

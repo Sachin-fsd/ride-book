@@ -1,0 +1,776 @@
+{
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "value": "NN7hb7MxVX6dNdsGsh815HK02yJrAtataP6Pe5gTnj8-1783672360-1.0.1.1-WoWbgw8qvP3.xR_ci9G9Ki4lo2sUU.pvHADc12CXTvC7fcv.W0_ekGNwwceLqwgIvTdcQdfUJa6etN09soMyFI7FwHU324R5MTHE_llQVuA",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1783674160.689533,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ua",
+      "value": "{\"session_id\":\"9dc4f5e9-99d4-4c66-85cc-8727fd096c7a\",\"session_time_ms\":1783672360869}",
+      "domain": "m.uber.com",
+      "path": "/",
+      "expires": 1783674363.028366,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "marketing_vistor_id",
+      "value": "6cfeb534-b772-43ee-86db-2f9c121a148c",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1815208563.029254,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "city_id_cookie_key",
+      "value": "197",
+      "domain": "m.uber.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "udi-id",
+      "value": "RKYeDzBBgHBvx32DC8tNWsmhEvH0ZGZaRceyw966+3Kc0pwl/RbfeUp82bhFLQvJVdlmblTAtyT60heHRDSzH9XsUfRTuuga1y+AAHCAwW68iFAghBya9/zf1L6xLlUYXl4txjgmfd48XowHlMp/bp7un3hnMxWyK6Sl1ewmfMA3G5TWu2978tsGsbKqN9y7ys+a8ezDM8nmM4TU9f6n+w==fyBz1PojWKs0JIlzUffwAQ==hPXyHX8LWcxMSIJdUGavIgQjh9L7Lb0/rUnsOUUwT4g=",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1818232361.036258,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utag_main__sn",
+      "value": "1",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1815208553,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utag_main_ses_id",
+      "value": "1783672362150%3Bexp-session",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1783674353,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utag_main__ss",
+      "value": "0%3Bexp-session",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1783674353,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "u-cookie-prefs",
+      "value": "eyJ2ZXJzaW9uIjoxMDAsImRhdGUiOjE3ODM2NzIzNjQwNTYsImNvb2tpZUNhdGVnb3JpZXMiOlsiYWxsIl0sImltcGxpY2l0Ijp0cnVlfQ%3D%3D",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1815208364,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CONSENTMGR",
+      "value": "1783672364075|consent:true",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1815208364,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "UBER_CONSENTMGR",
+      "value": "1783672364076|consent:true",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1815208364,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cc-x",
+      "value": "NWE5MmNkZDgtOGYxMy00NDk5LTkyMmItZGI5MjVmNzE1NzExOjE3ODM2NzIzNjQxMjc",
+      "domain": "www.cdn-net.com",
+      "path": "/",
+      "expires": 1799224554.120004,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cc",
+      "value": "AeBXOOMLvXge0wsQNNS8MQF8",
+      "domain": "m.uber.com",
+      "path": "/",
+      "expires": 1815228354,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ttp",
+      "value": "3GIwPKZo2yZkO5nqS3TQPlodAN6",
+      "domain": ".tiktok.com",
+      "path": "/",
+      "expires": 1817368553.904269,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1783672366031.646933280253012004.Bg",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1791448554,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tt_enable_cookie",
+      "value": "1",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1817368555,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ttp",
+      "value": "01KX5JGSDRG87CH59G0FJN0YDF_.tt.1",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1817368555,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "VzSuJKmOPKkspTvWOEf45P416TE6VrnzKcB7.e1HIdA-1783672366.5388384-1.0.1.1-kTLEruSZ3zdwuYiOYK08ikUXNyTK2bUAILULw3lSNxopIRu3d4lO5N9Ow1gdYAtdrRhtdk91_fMDfXRTcOTL_hFEglVkSNlWLLw5OIiTCN0MnswoVTdH9EDdrruDLgp2",
+      "domain": ".bzrcdn.openai.com",
+      "path": "/",
+      "expires": 1783674166.5487,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "mW1osGzwITxT3LFHxIhxmRdc2Imkd5qW4V4slIg0HlI-1783672366.5388384-1.0.1.1-Aoq3hcO4WBhw8VC.PLpPj532yWU6vr0b_Sg4f4764Wk",
+      "domain": ".bzrcdn.openai.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1668672856.1783672367",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1791448366,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.108186468.1783672367",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1818232554.272002,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_yjsu_yjad",
+      "value": "1783672366.ed910bd8-b5bc-4d4e-9f35-9e1c70c8c5a1",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1815208366,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".bat.bing.com",
+      "path": "/",
+      "expires": 1784277168.123832,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CLID",
+      "value": "f22d20d23a3c473197c170d02ee300f7.20260710.20270710",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1815208367.115167,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "2E3EF30FA8CC67C83561E49DA9646616",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1817368368.590483,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1784277168.590604,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRM_B",
+      "value": "2E3EF30FA8CC67C83561E49DA9646616",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1817368368.590664,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SM",
+      "value": "C",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "2E3EF30FA8CC67C83561E49DA9646616",
+      "domain": ".clarity.ms",
+      "path": "/",
+      "expires": 1817368368.743487,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1784277168.744083,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ANONCHK",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1783672968.744159,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ua",
+      "value": "{\"session_id\":\"78726491-0486-4afa-9a7a-30fcd5e5c27e\",\"session_time_ms\":1783672372229}",
+      "domain": "auth.uber.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "x-uber-analytics-session-id",
+      "value": "7c8bfd08-c08b-490a-851e-8c90520d59ad",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1783674172.408064,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "jwt-session",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InNsYXRlLWV4cGlyZXMtYXQiOjE3ODM2NzQxNzIyNjh9LCJpYXQiOjE3ODM2NzIzNzIsImV4cCI6MTc4Mzc1ODc3Mn0.F_-nOXDZ6qKPCRu-GMKcp61cPzwlrcwZmwIVNG1UW-s",
+      "domain": "auth.uber.com",
+      "path": "/",
+      "expires": 1783758772.408131,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cc",
+      "value": "Acz%2FKnYgfxN0iDJd96YQ7s4T",
+      "domain": "auth.uber.com",
+      "path": "/",
+      "expires": 1815228175,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "rateLimiterCookieSession",
+      "value": "{\"rateLimitingID\":\"a6a24edf-b9fe-44c8-a905-d955e40e7271\"}",
+      "domain": "auth.uber.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "udi-dd-aia",
+      "value": "7pjXLFhQJGa8q22SdS9tm1wTnOj45AQbFW58/EFOvKzXlyw5JqYd7a6pd6ZY02Wss+YZnpYqJkfTVpi8bzRx8V6XaooAhVo+aomnf8SIII/MaVcr6QUdNx6GAYAsNo5EAWvI6bzBeQcau4Ug7dj2wMHiF9tnIQ3up7hZ41iRzv+AYgS5X6uX/YhMWvPBAAKFV2vL/mx8kdlal+oDa5vefB7/LdlgOM6V7cOYWFj6HBWe9o4085tz+v8cicHrL2PjEleRilrinlwf3+CGv7MKRZsSGC/aGrkLdcViuVYRWepdhOZpe/pFFaf9w/X8y7stfmhWeyLNHlKy+ichIEB8TyLtOdIEgOvuBRVS4oZbThJgnzqf0LOZx+kegXX5AUoX9wb/0+uLqWdCkAe4Zojx+Q==YHHT6pjII+bZSqY91MYz4g==Z7cNSsJUG0xNfrIzezWeOQq0zqJzCf56QUpfy1YXoHs=",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1818232375.872764,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_iidt",
+      "value": "FfDTgSv4RHGWZzhqJ47QoRMOoMi39JcAneApOz0GL0kNSt1eBRSU+g6rn2yESB/V9j486j8yqWFEfg==",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1815208375.94754,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_vid_t",
+      "value": "Tsyq6P9ks+Qz4X4bJ3I34Jgvq+r/ZyQyvpsg1rLMqgnsloKBwcDcm1NOfZe7z/BgdOHS8NP4qFvacQ==",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1815208375,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "udi-dd-fjs",
+      "value": "PQsEqhUQH49O2LOY1Sxi/5RyFbf2Hs5jsghN+m2juqxx4j8bztrB6ALvqYdSQxA1MBi9F37d3ZPJnLmixXixu+gghIHYaeF0uFCHIqs6bpqVdXGQwj+PIAVlMg1kY+sYiMgyX6ukRmq3AaDUX4zJnoMEbHLkSLI9XtpCZuqIiC6HgUiNLEnCavx7exa2NyNCNzV40XenZWbfRMk/I/sllLSU/VuQs5IpI+RVTwh6nIqLUt3iv1xaI5/UO4x05gSHxNqzJG/iwLmj9bwUSucM3JerGXF823pZUNcuXk0dvWZEeAbF2r7aSlp+jcAg2bJStmnKkPlNvfvJkOPMMUFUVd0rQojlcsc4vexgp+ff51zZHNaCz66ju8HNjmi/aFz9B2B7apSUrDaOpgvq1MRE2w==etjbx36FCPm/L/FlqDqwbb5TvL+Hf+CWBqe5v4bmuxU=",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1818232376.281476,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "g_state",
+      "value": "{\"i_l\":0,\"i_ll\":1783672376638,\"i_b\":\"9mWQqv/+ZWoyx+XBVYaj8UrNH8caxkS1jI7yJqeqNGk\",\"i_e\":{\"enable_itp_optimization\":24},\"i_et\":1783672376638}",
+      "domain": "auth.uber.com",
+      "path": "/",
+      "expires": 1799224376,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-GAPS",
+      "value": "1:qpBhmanKFvcGrvb_pjrBacMwtPuuqA:k4LqSwnYAXy0xvzd",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1818232421.306328,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OTZ",
+      "value": "8689474_34_34__34_",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1786264424,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "532=nKnD_uYPx2TMnyUVnAVUl5h0VJZ7LBZdaueDzDnQJQPfRnekfKPMihZKJ6ha7RSkIimmifaMtn6QQG0v0X82j3CzOx8KklMpXj5Y-TZGkVCmCyjffWwhOtoyP3TN2RmkiFV_Xg_yLIswc-weESLTlybZzjW3G7ulgprDn1kcbNjYexGAft_103Rf6kSPC_-dEZ9SsQ",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1799483624.222866,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "isWebLogin",
+      "value": "true",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1783672850.728453,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "csid",
+      "value": "1.1799224550523.UP1nv2HvqmLDy+HQJK2B2yfffLQDRdZSUPFZFdqLCjQ=",
+      "domain": ".auth.uber.com",
+      "path": "/",
+      "expires": 1799224550.729519,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sid",
+      "value": "QA.CAESEKdv5lGroU_2rKi78ld-5OgY5vn32QYiATEqJGFhMDRlYjQ0LWE1OTctNDMxYy1iNTFkLWQ0YzNlZjJkYzJiNTJAwRWEeD4qThMaQ8AkQNUrXyUYIvik1PwDy61_QXqfThE2xJ559W9bzUWB2uOTb5u-Xn3ry7fJ1GKjX59aaf3E3joBMUIIdWJlci5jb20.HLJ9gMXNTtuISA206ZVim-4HnXmRUPDMV22qH7cCZlk",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1799224550.728669,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "smeta",
+      "value": "{\"expiresAt\":1799224550523}",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1799224550.728759,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "usl.vsi.270e839d-bbe3-43d1-aaef-4d44ee488bbe_76543166-0956-446e-a237-0aaf575c264d",
+      "value": "https://m.uber.com/go/login-redirect?previousPathname=%2Fgo%2Fhome&_csid=q6QpX6CD9U4_fWzgih70dw&state=yWh4wh-H_KlvAEjYs43ffW3CzNNxxT988cKboOYYphU%3D&effect=&sm_flow_id=1MX6DxIM",
+      "domain": "auth.uber.com",
+      "path": "/",
+      "expires": 1783672610.729685,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "csid",
+      "value": "1.1786264551032.pvesDHy7hhLHYMIdasynI5yKZugh5Rpfykp54kgb/eA=",
+      "domain": ".m.uber.com",
+      "path": "/",
+      "expires": 1786264551.06036,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "jwt-session",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InNsYXRlLWV4cGlyZXMtYXQiOjE3ODM2NzQxNjA4NjksIlVzZXItQWdlbnQiOiIiLCJ4LXViZXItY2xpZW50LWlkIjoiIiwieC11YmVyLWRldmljZSI6IiIsIngtdWJlci1jbGllbnQtdXNlci1zZXNzaW9uLWlkIjoiIiwidGVuYW5jeSI6InViZXIvcHJvZHVjdGlvbiJ9LCJpYXQiOjE3ODM2NzIzNjAsImV4cCI6MTc4Mzc1ODc2MH0.aeysiBdMXJis-NYWxKoYKMW2KsQC9ljL4qh7pdJrQYU",
+      "domain": "m.uber.com",
+      "path": "/",
+      "expires": 1783758952.788285,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utag_main__pn",
+      "value": "2%3Bexp-session",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1783674353,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utag_main__se",
+      "value": "7%3Bexp-session",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1783674353,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "utag_main__st",
+      "value": "1783674353890%3Bexp-session",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1783674353,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_XTGQLY6KPT",
+      "value": "GS2.1.s1783672366$o1$g1$t1783672554$j60$l0$h0",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1818232554.315778,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mp_adec770be288b16d9008c964acfba5c2_mixpanel",
+      "value": "%7B%22distinct_id%22%3A%20%22aa04eb44-a597-431c-b51d-d4c3ef2dc2b5%22%2C%22%24device_id%22%3A%20%2219f4b285c643fb-0a8be989a0862d-1e462c69-e1000-19f4b285c651de%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22%24user_id%22%3A%20%22aa04eb44-a597-431c-b51d-d4c3ef2dc2b5%22%7D",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1815208556,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "stateJgHkZ5vK",
+      "value": "JF0333C63bI0EH.1783673454637.xpbbaIayUJTTixPTMI7MiHr0AChUAPmMz9D5ehUtmgc=",
+      "domain": ".payments.uber.com",
+      "path": "/",
+      "expires": 1783673454.728936,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetsid",
+      "value": "edbf1d607c3911f1bcd6415f076834f8",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1783758955,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetvid",
+      "value": "edbf65907c3911f19693b9827eb233ed",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1817368555,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "udi-fingerprint",
+      "value": "cpWL6fqIgPmyHXakTrM2xEJbzLv7i2G4biT2IyknKccVXVh2o0/Ht2QM5oGySVVKULA7WGhRHW1xqdEZRJ7pMQ==xLEmmQNDZZ9xdXtN5LR7hjKLIhQPtNrEnM6ChsDAnr0=",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1818232555.72696,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ttcsid",
+      "value": "1783672366528::SLquxyL6CSRd0Pbkkl5L.1.1783672555877.0::1.183682.189087::5154.1.1095.26::0.0.0",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1817368555,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ttcsid_CRG9VSJC77U326FJDN5G",
+      "value": "1783672366528::RvxxxVRUy3zKqVVJhIum.1.1783672555877.1",
+      "domain": ".uber.com",
+      "path": "/",
+      "expires": 1817368555,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "csid",
+      "value": "1.1786264556384.PJ4dS5xC303BTpcTSQlFnZ56HCcRCE/7g+kQRfq7xn4=",
+      "domain": ".payments.uber.com",
+      "path": "/",
+      "expires": 1786264556.645974,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ua",
+      "value": "{\"session_id\":\"bfc368cf-76c5-4adf-affc-78778f555784\",\"session_time_ms\":1783672556392}",
+      "domain": "payments.uber.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_udeviceid",
+      "value": "d4e92ebb-7010-4936-aa85-114077bc3e03",
+      "domain": "payments.uber.com",
+      "path": "/",
+      "expires": 1818232556.646092,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "user_city_ids",
+      "value": "[]",
+      "domain": "payments.uber.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "jwt-session",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InNsYXRlLWV4cGlyZXMtYXQiOjE3ODM2NzQzNTYzOTJ9LCJpYXQiOjE3ODM2NzI1NTYsImV4cCI6MTc4Mzc1ODk1Nn0.HIAAM7doB6S9v7YQhlf-fVlFUwojkRCo7AskH_IgArI",
+      "domain": "payments.uber.com",
+      "path": "/",
+      "expires": 1783758956.646149,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "rateLimiterCookieSession",
+      "value": "{\"rateLimitingID\":\"ee18b5fe-c4d2-4659-9fd5-57293123b16a\"}",
+      "domain": "payments.uber.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://m.uber.com",
+      "localStorage": [
+        {
+          "name": "@uber/analytics/meta",
+          "value": "{\"batchIds\":[],\"totalBytes\":0}"
+        },
+        {
+          "name": "consented",
+          "value": "{\"expiry\":0,\"value\":true}"
+        },
+        {
+          "name": "helixFailoverToastCount",
+          "value": "0"
+        },
+        {
+          "name": "_uetvid_exp",
+          "value": "Wed, 04 Aug 2027 08:35:55 GMT"
+        },
+        {
+          "name": "preTripModalClosed",
+          "value": "{\"expiry\":0,\"value\":{\"isModalClosed\":false,\"tripUuid\":\"\"}}"
+        },
+        {
+          "name": "appLaunchPaymentPolling",
+          "value": "false"
+        },
+        {
+          "name": "ph_paymentOptions:production_w0u8jzht15p89t0n",
+          "value": "{\"preSelectedPaymentOption\":{\"paymentProfileUuid\":\"4d998c31-bcfa-5f4d-9d24-abec48be02b5\",\"displayName\":{\"value\":\"Cash\"},\"availability\":{\"isEligible\":true},\"iconUrl\":\"https://tb-static.uber.com/prod/wallet/icons_v2/cash_3x.png\",\"paymentMethodType\":\"cash\",\"tokenType\":\"cash\",\"paymentMethodId\":\"cash\"},\"paymentOptions\":[{\"paymentProfileUuid\":\"4d998c31-bcfa-5f4d-9d24-abec48be02b5\",\"displayName\":{\"value\":\"Cash\"},\"availability\":{\"isEligible\":true},\"iconUrl\":\"https://tb-static.uber.com/prod/wallet/icons_v2/cash_3x.png\",\"paymentMethodType\":\"cash\",\"tokenType\":\"cash\",\"paymentMethodId\":\"cash\"},{\"paymentProfileUuid\":\"8336bb85-d79e-53ba-8e8c-005437c572b5\",\"displayName\":{\"value\":\"UPI Scan and Pay\"},\"availability\":{\"isEligible\":true},\"iconUrl\":\"https://tb-static.uber.com/prod/wallet/icons_v2/qr_3x.png\",\"paymentMethodType\":\"cash\",\"tokenType\":\"cash\",\"paymentMethodId\":\"upi_qr\"}],\"groupedStoredValues\":{\"defaultView\":{\"storedValuePaymentOptions\":[{\"displayName\":{\"value\":\"Uber Cash: ₹0.00\"},\"iconUrl\":\"https://tb-static.uber.com/prod/wallet/icons_v2/stored_value_3x.png\",\"balance\":{\"amountE5\":{\"high\":0,\"low\":0,\"unsigned\":false},\"currencyCode\":\"INR\"},\"accountType\":\"UBER_CASH\",\"isEnabled\":true}],\"sectionTitle\":{\"value\":\"Uber Cash: ₹0.00\"},\"totalBalance\":{\"amountE5\":{\"high\":0,\"low\":0,\"unsigned\":false},\"currencyCode\":\"INR\"},\"selectedState\":\"DISABLED\"}},\"viewConfig\":{\"enabledFeatures\":{\"isUberBalancesEnabled\":true,\"isBenefitProgramsEnabled\":false,\"isBusinessProfilesEnabled\":true,\"isVouchersEnabled\":true,\"isMealVouchersEnabled\":false,\"isAmexBannerEnabled\":false,\"isCentralizedBillingModeEnabled\":false,\"isUnavailableSectionEnabled\":false}},\"businessProfiles\":[],\"profileOptions\":{\"profileOptions\":[]},\"meta\":{\"jsBridgeNames\":[\"hostAppBridge\"],\"apple_pay_display\":{\"minVersion\":3,\"maxVersion\":5,\"networkVersionCompatibility\":[null,[\"amex\",\"masterCard\",\"visa\"],[],null,[\"maestro\"],[]]},\"skipIgnoreBridge\":false,\"enableVenmoSelectInWebView\":false,\"newIconsEnabled\":true,\"paymentSelectionRedesignEnabled\":true,\"paymentSelectionFallbackEnabled\":true,\"vouchersFeatureEnabled\":true,\"paymentSwitcherV2Enabled\":true},\"hasVouchers\":false}"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1783672366685},\"expires\":1791448366685}}"
+        },
+        {
+          "name": "__mpq_adec770be288b16d9008c964acfba5c2_ev",
+          "value": "[]"
+        },
+        {
+          "name": "_uetsid",
+          "value": "edbf1d607c3911f1bcd6415f076834f8"
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1783672554058"
+        },
+        {
+          "name": "_uetsid_exp",
+          "value": "Sat, 11 Jul 2026 08:35:55 GMT"
+        },
+        {
+          "name": "_uetvid",
+          "value": "edbf65907c3911f19693b9827eb233ed"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "other"
+        },
+        {
+          "name": "_cc_ck",
+          "value": "AeBXOOMLvXge0wsQNNS8MQF8"
+        },
+        {
+          "name": "fallbackToRides",
+          "value": "{\"expiry\":0,\"value\":false}"
+        }
+      ]
+    },
+    {
+      "origin": "https://auth.uber.com",
+      "localStorage": [
+        {
+          "name": "_vid_t",
+          "value": "Tsyq6P9ks+Qz4X4bJ3I34Jgvq+r/ZyQyvpsg1rLMqgnsloKBwcDcm1NOfZe7z/BgdOHS8NP4qFvacQ=="
+        },
+        {
+          "name": "@uber/analytics/meta",
+          "value": "{\"batchIds\":[],\"totalBytes\":0}"
+        },
+        {
+          "name": "_cc_ck",
+          "value": "Acz/KnYgfxN0iDJd96YQ7s4T"
+        },
+        {
+          "name": "_vid_lr",
+          "value": "[[\"3MMKFpZOfywv\",\"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\"]]"
+        }
+      ]
+    }
+  ]
+}
