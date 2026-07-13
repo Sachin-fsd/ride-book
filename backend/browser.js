@@ -33,10 +33,10 @@ async function createPage(platform, url) {
 
     const context = await instance.browser.newContext({
         storageState: path.join(__dirname, "storage", `${platform}.json`),
-        recordVideo: {
-            dir: "./videos",
-            size: { width: 1280, height: 720 },
-        },
+        // recordVideo: {
+        //     dir: "./videos",
+        //     size: { width: 1280, height: 720 },
+        // },
         permissions: ["geolocation"],
 
         geolocation: {

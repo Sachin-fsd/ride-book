@@ -1,10 +1,22 @@
+// const fs = require("fs");
 async function parseRideCards(page) {
     console.log("\n==============================");
     console.log("Parsing Ola rides...");
     console.log("==============================");
+    await
+        await page.waitForSelector(".card.car-cont .cab-row.ptr");
+    // await page.screenshot({
+    //     path: "ola-before-parse.png",
+    //     fullPage: true,
+    // });
+    // const bodyHtml = await page.$eval("body", (body) => body.innerHTML);
+    // const firstCard = await page.$eval(
+    //     ".card.car-cont .cab-row.ptr",
+    //     (el) => el.outerHTML
+    // );
 
-    await page.waitForSelector(".card.car-cont .cab-row.ptr");
-
+    // console.log(firstCard);
+    // fs.writeFileSync("./ola.html", firstCard, "utf8");
     const rides = await page.$$eval(".card.car-cont .cab-row.ptr", (rows) => {
         return rows.map((row) => {
             const vehicle =
@@ -13,13 +25,9 @@ async function parseRideCards(page) {
 
             const priceText =
                 row.querySelector(".price span")?.textContent?.trim() ?? "";
+            const fare = priceText ? Number(priceText.replace(/[^\d]/g, "")) : null;
 
-            const fare = priceText
-                ? Number(priceText.replace(/[^\d]/g, ""))
-                : null;
-
-            const eta =
-                row.querySelector(".av-time")?.textContent?.trim() ?? null;
+            const eta = row.querySelector(".av-time")?.textContent?.trim() ?? null;
 
             const description =
                 row.querySelector(".desc")?.textContent?.trim() ?? null;
@@ -41,8 +49,8 @@ async function parseRideCards(page) {
             };
         });
     });
-
-    console.table(rides);
+    console.log(rides);
+    // console.table(rides);
     return rides;
 }
 

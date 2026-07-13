@@ -56,7 +56,7 @@ async function getOlaFare(from, to) {
         await choosePickup(page, from);
 
         await chooseDestination(page, to);
-
+        await page.waitForTimeout(2000); // 3 seconds
         console.log("\nWaiting for ride results...");
 
         await page.waitForSelector(".card.car-cont .cab-row.ptr", {
