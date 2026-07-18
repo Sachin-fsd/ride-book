@@ -6,7 +6,7 @@ const browsers = {};
 async function initBrowser(platform) {
     if (browsers[platform]) return;
 
-    console.log(`Launching ${platform} browser...`);
+    // console.log(`Launching ${platform} browser...`);
 
     const browser = await chromium.launch({
         headless: true,
@@ -21,7 +21,7 @@ async function initBrowser(platform) {
         browser,
     };
 
-    console.log(`${platform} initialized.`);
+    // console.log(`${platform} initialized.`);
 }
 
 async function createPage(platform, url) {
@@ -52,7 +52,7 @@ async function createPage(platform, url) {
 
     const page = await context.newPage();
 
-    console.log(`Opening ${url}`);
+    // console.log(`Opening ${url}`);
 
     await page.goto(url, {
         waitUntil: "domcontentloaded",
@@ -64,7 +64,7 @@ async function createPage(platform, url) {
 async function closeBrowser(platform) {
     if (platform) {
         if (browsers[platform]) {
-            console.log(`Closing ${platform} browser`);
+            // console.log(`Closing ${platform} browser`);
 
             await browsers[platform].browser.close();
 
@@ -75,7 +75,7 @@ async function closeBrowser(platform) {
     }
 
     for (const key of Object.keys(browsers)) {
-        console.log(`Closing ${key} browser`);
+        // console.log(`Closing ${key} browser`);
 
         await browsers[key].browser.close();
     }

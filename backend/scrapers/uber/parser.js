@@ -1,9 +1,9 @@
 const S = require("./selectors");
 
 async function parseRideCards(page) {
-    console.log("\n======================");
-    console.log("Parsing Ride Cards");
-    console.log("======================");
+    // console.log("\n======================");
+    // console.log("Parsing Ride Cards");
+    // console.log("======================");
 
     await page.waitForSelector(S.RIDE_CARD, {
         timeout: 30000,
@@ -156,7 +156,7 @@ async function parseRideCards(page) {
         });
     });
 
-    console.log("Ride Count:", rides.length);
+    // console.log("Ride Count:", rides.length);
 
     console.table(rides);
 

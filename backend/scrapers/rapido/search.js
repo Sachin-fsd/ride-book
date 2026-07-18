@@ -1,9 +1,9 @@
 const S = require("./selectors");
 
 async function chooseLocation(page, location, isPickup) {
-    console.log("\n==================================");
-    console.log(isPickup ? "Selecting Pickup" : "Selecting Destination");
-    console.log("==================================");
+    // console.log("\n==================================");
+    // console.log(isPickup ? "Selecting Pickup" : "Selecting Destination");
+    // console.log("==================================");
 
     const input = page.locator(isPickup ? S.PICKUP_INPUT : S.DROPOFF_INPUT);
 
@@ -12,7 +12,7 @@ async function chooseLocation(page, location, isPickup) {
         timeout: 30000,
     });
 
-    console.log("✓ Input visible");
+    // console.log("✓ Input visible");
 
     await input.click();
 
@@ -22,7 +22,7 @@ async function chooseLocation(page, location, isPickup) {
         delay: 70,
     });
 
-    console.log("Typed:", location);
+    // console.log("Typed:", location);
 
     const cards = page.locator(S.SUGGESTION_CARD);
 
@@ -33,7 +33,7 @@ async function chooseLocation(page, location, isPickup) {
 
     const count = await cards.count();
 
-    console.log("Suggestions:", count);
+    // console.log("Suggestions:", count);
 
     if (!count) {
         throw new Error("No suggestions found.");
@@ -51,7 +51,7 @@ async function chooseLocation(page, location, isPickup) {
         force: true,
     });
 
-    console.log("✓ Suggestion clicked");
+    // console.log("✓ Suggestion clicked");
 
     await cards.first().waitFor({
         state: "hidden",
@@ -68,14 +68,14 @@ async function chooseDestination(page, location) {
 }
 
 async function clickBookRide(page) {
-    console.log("\nClicking Book Ride...");
+    // console.log("\nClicking Book Ride...");
 
     await Promise.all([
         page.waitForURL("**m.rapido.bike/**"),
         page.locator(S.SEARCH_BUTTON).click(),
     ]);
 
-    console.log("✓ Redirected to results page");
+    // console.log("✓ Redirected to results page");
 }
 
 module.exports = {

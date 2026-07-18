@@ -2,9 +2,9 @@ const S = require("./selectors");
 
 async function recover(page) {
 
-    console.log("\n======================");
-    console.log("Recovering Browser");
-    console.log("======================");
+    // console.log("\n======================");
+    // console.log("Recovering Browser");
+    // console.log("======================");
 
     if (page.isClosed()) {
         throw new Error("Browser closed.");
@@ -28,7 +28,7 @@ async function recover(page) {
 
     if (await confirm.count()) {
 
-        console.log("Closing Confirm popup");
+        // console.log("Closing Confirm popup");
 
         await confirm.click();
 
@@ -45,7 +45,7 @@ async function recover(page) {
 
     if (await cont.count()) {
 
-        console.log("Closing Continue popup");
+        // console.log("Closing Continue popup");
 
         await cont.click();
 
@@ -54,7 +54,7 @@ async function recover(page) {
 
     const url = page.url();
 
-    console.log("Current URL:", url);
+    // console.log("Current URL:", url);
 
     //
     // Already on ride page
@@ -62,7 +62,7 @@ async function recover(page) {
 
     if (url.includes("/product-selection")) {
 
-        console.log("State : RESULTS");
+        // console.log("State : RESULTS");
 
         return "RESULTS";
 
@@ -74,7 +74,7 @@ async function recover(page) {
 
     if (url.includes("/drop")) {
 
-        console.log("State : SEARCH");
+        // console.log("State : SEARCH");
 
         return "SEARCH";
 
@@ -86,7 +86,7 @@ async function recover(page) {
 
     if (url.includes("/home")) {
 
-        console.log("State : HOME");
+        // console.log("State : HOME");
 
         return "HOME";
 
@@ -96,9 +96,9 @@ async function recover(page) {
     // Unknown
     //
 
-    console.log("Unknown page.");
+    // console.log("Unknown page.");
 
-    console.log("Navigating Home.");
+    // console.log("Navigating Home.");
 
     await page.goto(
         "https://m.uber.com/go/home",

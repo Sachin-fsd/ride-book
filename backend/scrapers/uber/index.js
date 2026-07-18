@@ -10,7 +10,7 @@ const {
 } = require("./search");
 
 async function handleOptionalPopups(page) {
-    console.log("\nChecking Optional Popups...");
+    // console.log("\nChecking Optional Popups...");
 
     //
     // Popup 1
@@ -21,11 +21,11 @@ async function handleOptionalPopups(page) {
     });
 
     if (await confirm.isVisible().catch(() => false)) {
-        console.log("Intercity popup detected.");
+        // console.log("Intercity popup detected.");
 
         await confirm.click();
 
-        console.log("✓ Confirm clicked");
+        // console.log("✓ Confirm clicked");
 
         await page.waitForTimeout(1500);
     }
@@ -39,11 +39,11 @@ async function handleOptionalPopups(page) {
     });
 
     if (await cont.isVisible().catch(() => false)) {
-        console.log("Pickup time popup detected.");
+        // console.log("Pickup time popup detected.");
 
         await cont.click();
 
-        console.log("✓ Continue clicked");
+        // console.log("✓ Continue clicked");
 
         await page.waitForTimeout(2500);
     }
@@ -53,12 +53,12 @@ async function getUberFare(from, to) {
     const page = await createPage("uber", "https://m.uber.com/go/home");
 
     try {
-        console.log("\n=================================");
-        console.log("Uber Search Started");
-        console.log("=================================");
+        // console.log("\n=================================");
+        // console.log("Uber Search Started");
+        // console.log("=================================");
 
-        console.log("FROM :", from);
-        console.log("TO   :", to);
+        // console.log("FROM :", from);
+        // console.log("TO   :", to);
 
         //
         // Recover
@@ -66,7 +66,7 @@ async function getUberFare(from, to) {
 
         const state = await recover(page);
 
-        console.log("Recovered State :", state);
+        // console.log("Recovered State :", state);
 
         //
         // Pickup
@@ -106,22 +106,22 @@ async function getUberFare(from, to) {
 
         const rides = await parseRideCards(page);
 
-        console.log("\n=================================");
-        console.log("Uber Search Finished");
-        console.log("=================================");
+        // console.log("\n=================================");
+        // console.log("Uber Search Finished");
+        // console.log("=================================");
 
         return rides;
     } catch (err) {
-        console.log("\n=================================");
-        console.log("SCRAPER FAILED");
-        console.log("=================================");
+        // console.log("\n=================================");
+        console.log("UBER SCRAPER FAILED");
+        // console.log("=================================");
 
         console.error(err);
 
         try {
-            console.log("Current URL:");
+            // console.log("Current URL:");
 
-            console.log(page.url());
+            // console.log(page.url());
 
             await page.screenshot({
                 path: "error.png",
@@ -129,14 +129,14 @@ async function getUberFare(from, to) {
                 fullPage: true,
             });
 
-            console.log("Screenshot saved.");
+            // console.log("Screenshot saved.");
         } catch {
             console.log("Couldn't capture screenshot.");
         }
 
         throw err;
     } finally {
-        console.log("\nClosing page...");
+        // console.log("\nClosing page...");
 
         try {
             await page.close();

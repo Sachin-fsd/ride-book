@@ -4,18 +4,18 @@ async function closeChoosePlacePopup(page) {
     const popup = page.getByTestId("common.modal.title");
 
     if (await popup.isVisible().catch(() => false)) {
-        console.log("Saved places popup detected.");
+        // console.log("Saved places popup detected.");
 
         await page.getByTestId("baseui-modal-close").click();
 
         await page.waitForTimeout(800);
 
-        console.log("Popup closed.");
+        // console.log("Popup closed.");
     }
 }
 
 async function chooseLocation(page, text, index) {
-    console.log("Searching:", text);
+    // console.log("Searching:", text);
 
     const input = page.locator(S.COMBOBOX).nth(index);
 
@@ -35,7 +35,7 @@ async function chooseLocation(page, text, index) {
         delay: 70,
     });
 
-    console.log("Typed.");
+    // console.log("Typed.");
 
     await page.waitForTimeout(1000);
 
@@ -50,7 +50,7 @@ async function chooseLocation(page, text, index) {
     const results = page.locator(S.LOCATION_RESULT);
     const count = await results.count();
 
-    console.log("Suggestions:", count);
+    // console.log("Suggestions:", count);
 
     if (!count) {
         throw new Error("No suggestions found.");
@@ -67,11 +67,11 @@ async function chooseLocation(page, text, index) {
             textContent.includes("Add a new place") ||
             textContent.includes("Choose a place")
         ) {
-            console.log("Skipping:", textContent);
+            // console.log("Skipping:", textContent);
             continue;
         }
 
-        console.log("Selecting:", textContent);
+        // console.log("Selecting:", textContent);
 
         await item.click();
 
@@ -85,7 +85,7 @@ async function chooseLocation(page, text, index) {
 
     await closeChoosePlacePopup(page);
 
-    console.log("Selected.");
+    // console.log("Selected.");
 
     await page.waitForTimeout(1200);
 }
@@ -99,7 +99,7 @@ async function chooseDestination(page, location) {
 }
 
 async function clickSearch(page) {
-    console.log("Clicking Search...");
+    // console.log("Clicking Search...");
 
     const button = page.locator(S.SEARCH_BUTTON);
 
@@ -110,7 +110,7 @@ async function clickSearch(page) {
 
     await button.click();
 
-    console.log("Search clicked.");
+    // console.log("Search clicked.");
 }
 
 module.exports = {

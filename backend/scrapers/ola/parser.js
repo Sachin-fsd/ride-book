@@ -1,8 +1,8 @@
 // const fs = require("fs");
 async function parseRideCards(page) {
-    console.log("\n==============================");
-    console.log("Parsing Ola rides...");
-    console.log("==============================");
+    // console.log("\n==============================");
+    // console.log("Parsing Ola rides...");
+    // console.log("==============================");
     await
         await page.waitForSelector(".card.car-cont .cab-row.ptr");
     // await page.screenshot({
@@ -49,7 +49,7 @@ async function parseRideCards(page) {
             };
         });
     });
-    console.log(rides);
+    // console.log(rides);
     // console.table(rides);
     return rides;
 }

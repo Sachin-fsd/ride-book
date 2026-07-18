@@ -1,14 +1,14 @@
 const S = require("./selectors");
 
 async function chooseLocation(page, location, isPickup) {
-    console.log("\n==================================");
-    console.log(isPickup ? "Selecting Pickup" : "Selecting Destination");
-    console.log("==================================");
+    // console.log("\n==================================");
+    // console.log(isPickup ? "Selecting Pickup" : "Selecting Destination");
+    // console.log("==================================");
 
     let row;
 
     if (isPickup) {
-        console.log("Opening pickup...");
+        // console.log("Opening pickup...");
 
         row = page.locator(".row-sm.ptr").filter({
             has: page.locator(".label", {
@@ -16,7 +16,7 @@ async function chooseLocation(page, location, isPickup) {
             }),
         });
     } else {
-        console.log("Opening destination...");
+        // console.log("Opening destination...");
 
         row = page.locator(".row-sm.ptr").filter({
             has: page.locator(".label", {
@@ -39,7 +39,7 @@ async function chooseLocation(page, location, isPickup) {
 
     await clickable.click();
 
-    console.log("✓ Modal opened");
+    // console.log("✓ Modal opened");
 
     const input = page.locator("#addressInput");
 
@@ -47,20 +47,20 @@ async function chooseLocation(page, location, isPickup) {
 
     await input.click();
 
-    console.log("✓ Input clicked");
+    // console.log("✓ Input clicked");
 
     if (isPickup) {
         await input.press("Control+A");
         await input.press("Backspace");
 
-        console.log("✓ Previous pickup cleared");
+        // console.log("✓ Previous pickup cleared");
     }
 
     await input.type(location, {
         delay: 70,
     });
 
-    console.log("Typed:", location);
+    // console.log("Typed:", location);
 
     await page.waitForSelector(".results-row");
 
@@ -70,17 +70,17 @@ async function chooseLocation(page, location, isPickup) {
         state: "visible",
     });
 
-    console.log("Clicking first suggestion...");
+    // console.log("Clicking first suggestion...");
 
     await firstCard.click();
 
-    console.log("✓ First suggestion clicked");
+    // console.log("✓ First suggestion clicked");
 
     await input.waitFor({
         state: "hidden",
     });
 
-    console.log("✓ Modal closed");
+    // console.log("✓ Modal closed");
 }
 async function choosePickup(page, location) {
     return chooseLocation(

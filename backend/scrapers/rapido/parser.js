@@ -1,11 +1,11 @@
 async function parseRideCards(page) {
-    console.log("\nParsing Rapido rides...");
+    // console.log("\nParsing Rapido rides...");
 
     const cards = page.locator(".fare-estimate-wrapper .card-wrap");
 
     const count = await cards.count();
 
-    console.log("Ride cards:", count);
+    // console.log("Ride cards:", count);
 
     const rides = [];
 
@@ -53,16 +53,16 @@ async function parseRideCards(page) {
                 priceText,
             });
 
-            console.log(
-                `✓ ${vehicle} | ${priceText}`
-            );
+            // console.log(
+            //     `✓ ${vehicle} | ${priceText}`
+            // );
 
         } catch (err) {
             console.log(`Skipping card ${i + 1}`);
         }
     }
 
-    console.log(`Parsed ${rides.length} rides.`);
+    // console.log(`Parsed ${rides.length} rides.`);
 
     return rides;
 }

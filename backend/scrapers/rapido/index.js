@@ -3,7 +3,7 @@ const { choosePickup, chooseDestination, clickBookRide } = require("./search");
 const parseRideCards = require("./parser");
 
 async function waitForResults(page) {
-    console.log("\nWaiting for Rapido results...");
+    // console.log("\nWaiting for Rapido results...");
 
     await page.waitForLoadState("domcontentloaded");
 
@@ -17,21 +17,21 @@ async function waitForResults(page) {
         timeout: 30000,
     });
 
-    console.log("Current URL:");
-    console.log(page.url());
+    // console.log("Current URL:");
+    // console.log(page.url());
 
-    console.log("✓ Ride cards loaded");
+    // console.log("✓ Ride cards loaded");
 }
 
 async function getRapidoFare(from, to) {
     const page = await createPage("rapido", "https://www.rapido.bike/");
 
     try {
-        console.log("\n=================================");
-        console.log("RAPIDO SEARCH STARTED");
-        console.log("=================================");
-        console.log("FROM :", from);
-        console.log("TO   :", to);
+        // console.log("\n=================================");
+        // console.log("RAPIDO SEARCH STARTED");
+        // console.log("=================================");
+        // console.log("FROM :", from);
+        // console.log("TO   :", to);
 
         await page.waitForLoadState("domcontentloaded");
 
@@ -47,15 +47,15 @@ async function getRapidoFare(from, to) {
 
         const rides = await parseRideCards(page);
 
-        console.log("\n=================================");
-        console.log("RAPIDO SEARCH FINISHED");
-        console.log("=================================");
+        // console.log("\n=================================");
+        // console.log("RAPIDO SEARCH FINISHED");
+        // console.log("=================================");
 
         return rides;
     } catch (err) {
-        console.log("\n=================================");
+        // console.log("\n=================================");
         console.log("RAPIDO SCRAPER FAILED");
-        console.log("=================================");
+        // console.log("=================================");
 
         console.error(err);
 
@@ -68,7 +68,7 @@ async function getRapidoFare(from, to) {
 
         throw err;
     } finally {
-        console.log("\nClosing page...");
+        // console.log("\nClosing page...");
 
         try {
             await page.close();
